@@ -1,0 +1,12 @@
+pub const WIDTH: usize = 800;
+pub const HEIGHT: usize = 600;
+pub const FOOD_COUNT: usize = 500;
+pub const ANT_COUNT: usize = 100;
+pub const NEST_POSITION: (usize, usize) = (VIRTUAL_WIDTH / 2, VIRTUAL_HEIGHT / 2);
+pub const VIRTUAL_WIDTH: usize = 400;
+pub const VIRTUAL_HEIGHT: usize = 300;
+pub const SCALE_X: usize = WIDTH / VIRTUAL_WIDTH;
+pub const SCALE_Y: usize = HEIGHT / VIRTUAL_HEIGHT;
+pub const PADDING: usize = 50;   // Padding to keep food away from the very edges
+pub const CLUMP_RADIUS: usize = 10;  // Radius for denser clumps
+pub const CLUMP_COUNT: usize = 10;   // Number of clumps
